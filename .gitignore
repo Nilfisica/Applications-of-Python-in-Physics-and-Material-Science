@@ -1,0 +1,40 @@
+# Arquivos de cache do Python (gerados automaticamente pelo interpretador)
+__pycache__/
+*.pyc
+*.pyd
+.Python
+
+# Ambientes virtuais (muito importantes para ignorar!)
+venv/
+.venv/
+env/
+.env/
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos de dados temporários ou gerados localmente (se aplicável aos seus scripts)
+*.tmp
+*.bak
+*.sqlite3 # Se usar SQLite para banco de dados local
+data/*.csv # Exemplo: Se seus scripts geram ou usam arquivos CSV que não devem ser versionados
+output/ # Pasta de saída de resultados, se não for para versionar
+
+# Configurações de IDEs (Editores de Código)
+.idea/             # IntelliJ IDEA / PyCharm
+.vscode/           # Visual Studio Code
+*.iml              # IntelliJ IDEA module files
+.project           # Eclipse
+.pydevproject      # PyDev
+.sublime-workspace # Sublime Text
+.DS_Store          # macOS specific
+Thumbs.db          # Windows specific
+
+# Arquivos de dados sensíveis ou configurações locais (se você tiver)
+.env               # Variáveis de ambiente
+config.ini.local   # Arquivos de configuração local
+secrets.py         # Arquivos com chaves de API, senhas, etc. (NUNCA comite isso!)
+
+# Arquivos de notebook Jupyter (se você usar)
+.ipynb_checkpoints/ # Checkpoints automáticos de notebooks Jupyter
